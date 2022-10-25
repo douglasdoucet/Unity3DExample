@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48599b88b109f4377adc9378e738ecf6, type: 3}
+  m_Name: NameQuery
+  m_EditorClassIdentifier: 
+  text: What is your name?
+  nextSentence: {fileID: 0}
+  options:
+  - text: Fred
+    nextSentence: {fileID: 11400000, guid: 20945ced75d3a43ec977458f4c65ea71, type: 2}
+    onOptionSelected: {fileID: 0}
+  - text: '[Don''t Respond]'
+    nextSentence: {fileID: 11400000, guid: 41ec52da3d2354c25a86eab56273b704, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: e1f94c01f6b22447db16d6bfb49a7306, type: 2}
